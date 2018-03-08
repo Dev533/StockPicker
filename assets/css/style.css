@@ -1,0 +1,44 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+/* mid */
+body {
+    background-color: #887f7c;
+
+}
+
+.container {
+    opacity: 0.9;
+}
+/* top */
+nav {
+    opacity: 0.9; 
+    background: #000000 -webkit-gradient(linear, left top, left bottom, from(#333333), to(#837F7C)) no-repeat;  
+}
+
+.card {
+   background-color: whitesmoke;
+   opacity: 0.9;
+}
+
+.card-body {
+    opacity: 0.9;
+}
+
+
+footer {
+    color: whitesmoke;
+}
+
+#img {
+    width: 50%;
+    height: 50%;
+}
+/* @media only screen and (max-width: 900px) {
+    body { */
