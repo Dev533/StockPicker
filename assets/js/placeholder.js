@@ -1,4 +1,4 @@
-$(document).ready(function(){
+//$(document).ready(function(){
 
 
 
@@ -15,6 +15,7 @@ $('#signIn').on("click", function(e) {
     localStorage.setItem("name", email)
     localStorage.setItem("password", password)
 
+    $('#container1').removeClass('mainpage')
 
-})
-
+    })
+//})
