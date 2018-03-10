@@ -1,7 +1,9 @@
 body {
-    padding-top: 40px;
+    padding-top: 0px;
     padding-bottom: 40px;
-    background-color: #eee;
+    /*background-color: #eee;*/
+    background-image: url(../img/smokee.jpg);
+    background-color: #887f7c;
   }
   
   .form-signin {
@@ -43,10 +45,10 @@ body {
 /* Narrow Jumbotron
 
 /* Space out content a bit */
-body {
-    padding-top: 20px;
+/*body {
+    padding-top: 0px;
     padding-bottom: 1000px;
-  }
+  }*/
   
   /* Everything but the jumbotron gets side spacing for mobile first views */
   .header,
@@ -87,6 +89,8 @@ body {
   
   /* Main marketing message and sign up button */
   .jumbotron {
+    color: whitesmoke;
+    font-size: 50px;
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
   }
@@ -120,5 +124,42 @@ body {
     .jumbotron {
       border-bottom: 0;
     }
+
+    a {
+      text-decoration: none;
+      color: black;
+      opacity: 0.9;
   }
+  
+  a:hover {
+      text-decoration: none;
+      color: black;
+  }
+  /* mid */
+  /*body {
+      /* background-image: url(../img/smokee.jpg); */
+      /*background-color: #887f7c;
+  
+  }*/
+  
+  .container {
+      opacity: 0.9;
+  }
+  /* top */
+  nav {
+      opacity: 0.9; 
+      background: #837F7C -webkit-gradient(linear, left top, left bottom, from(#000000), to(#837F7C)) no-repeat;
+      opacity: 0.9;
+  }
+  /* bottom */
+  /*.jumbotron {
+      height: auto;
+      width: auto;
+      margin: 0;
+      background: #837F7C -webkit-gradient(linear, left top, left bottom, from(#000000), to(#837F7C)) no-repeat;
+  } 
+      /* opacity: 0.3; */ 
+   
+  }
+  
   

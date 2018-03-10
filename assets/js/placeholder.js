@@ -1,14 +1,9 @@
 //$(document).ready(function(){
 
-   // var hotdog = "hotdog";
-   // console.log(hotdog)
-// })
-
-
-
 
 
 $('#signIn').on("click", function(e) {
+    console.log('hi')
     // Prevents page from reloading if user presses Enter.
     e.preventDefault();
 
@@ -20,5 +15,7 @@ $('#signIn').on("click", function(e) {
     localStorage.setItem("name", email)
     localStorage.setItem("password", password)
 
+    $('#container1').removeClass('mainpage')
 
-})
+    })
+//})
