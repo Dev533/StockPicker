@@ -1,14 +1,9 @@
-//$(document).ready(function(){
-
-   // var hotdog = "hotdog";
-   // console.log(hotdog)
-// })
-
-
+$(document).ready(function(){
 
 
 
 $('#signIn').on("click", function(e) {
+    console.log('hi')
     // Prevents page from reloading if user presses Enter.
     e.preventDefault();
 
@@ -22,3 +17,4 @@ $('#signIn').on("click", function(e) {
 
 
 })
+
