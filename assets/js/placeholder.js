@@ -16,6 +16,7 @@ $('#signIn').on("click", function(e) {
     localStorage.setItem("password", password)
 
     $('#container1').removeClass('mainpage')
+    $('#container2').hide()
 
     })
 //})
