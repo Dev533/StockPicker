@@ -1,12 +1,14 @@
 a {
     text-decoration: none;
     color: black;
+    opacity: 0.9;
 }
 
 a:hover {
     text-decoration: none;
     color: black;
 }
+
 /* mid */
 body {
     background-color: #887f7c;
@@ -31,14 +33,113 @@ nav {
     opacity: 0.9;
 }
 
-
-footer {
-    color: whitesmoke;
+.my-4 {
+    text-align: center;
+}
+.img-container {
+    width: 100px; 
+    height: 100px;
+    overflow: hidden;
+    border-radius: 100px;
+    margin: 20px;
+}
+.user-auto {
+    width: 100PX;
+    height: auto;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+/* modal control */
+#modalControl {
+    top: 34%;
+    left: 35%;
+}
+.turned-button {
+    background-color:#f6c244; 
+}
+/* footercontrol */
+#collapseBtn {
+    top: 75%;
+    left: 50%;
+    width: 100%;
+}
+.btn-info {
+    background-color:#327df6;
+}
+#genCorpFinancialInfo {
+    margin-bottom: 100px;
 }
 
-#img {
-    width: 50%;
-    height: 50%;
+#graphRow {
+    margin-bottom: 125px;
 }
-/* @media only screen and (max-width: 900px) {
-    body { */
+
+#graphCard {
+    width: auto;
+}
+
+
+#newsRow {
+    margin-top: 200px;
+}
+
+.ct-series-a, .ct-area{
+    fill: #007BFF !important;
+}
+.ct-series-a, .ct-line{
+    stroke: #007BFF !important;
+}
+
+#corpSummary{
+    padding: 15px;
+}
+
+
+/* @media only screen and (max-width: 1030px) {
+   body, div.card-body, .aside.col-5.pb-4 {
+        max-width: 100%;
+        background-image: 100%;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    body, div.card-body, div.col-7.pb-4, .aside.col-5.pb-4 {
+        max-width: 100%;
+        background-image: 100%;
+    }
+}
+@media only screen and (max-width: 750px) {
+    body, div.crd-body, .aside, .card-footer.text-center {
+        margin-bottom: 0;
+        max-width: 100%;
+        background-image: 100%;
+
+    }
+}
+@media only screen and (max-width: 620px) {
+    body {
+        margin-bottom: 0;
+        max-width: 100%;
+        background-image: 100%;
+
+    }
+}
+@media only screen and (max-width: 500px) {
+    body {
+        margin-bottom: 0;
+        max-width: 100%;
+        background-image: 100%;
+    }
+}  
+@media only screen and (max-width: 450px) {
+    body {
+         margin-bottom: 0;
+         max-width: 100%;
+         background-image: 100%;
+     }
+ }   */
