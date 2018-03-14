@@ -2,7 +2,7 @@ body {
     padding-top: 0px;
     padding-bottom: 40px;
     /*background-color: #eee;*/
-    background-image: url(../img/smokee.jpg);
+    background-image: url(assets/images/smokee.jpg);
     background-color: #887f7c;
   }
   
@@ -151,6 +151,14 @@ body {
       background: #837F7C -webkit-gradient(linear, left top, left bottom, from(#000000), to(#837F7C)) no-repeat;
       opacity: 0.9;
   }
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
   /* bottom */
   /*.jumbotron {
       height: auto;

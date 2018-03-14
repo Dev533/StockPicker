@@ -76,8 +76,9 @@ $(document).ready(function(){
 
     // WATCH LIST CLICK FUNCTION
     // _________________________________________________________________
-    $('#watchListBTN').on('click', function(){
+    $('#watchlistForm').on('submit', function(){
         event.preventDefault();
+        console.log(this)
 
         // get search term from user input
         var searchTerm= $('#watchListInput').val();
